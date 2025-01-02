@@ -1,6 +1,6 @@
 #Live stream the project
-the link be -invoice-generator-rho-beige.vercel.app
-
+the link be - [invoice-generator-rho-beige.vercel.app
+](https://vercel.com/avinash-kishores-projects/invoice-generator)
 
 
 # Getting Started with Create React App
