@@ -5,9 +5,33 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:#F2F2F2;
+  /* background-image: url(https://wallpapers.com/images/featured/live-background-jl2nsh524axnqy5y.jpg); */
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+label{
+  margin-bottom: 0.4rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: rgb(51, 50, 50);
+}
+input,textarea{
+  background-color: rgb(228, 234, 234);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+  color: rgb(69, 68, 68);
+  font-weight: 600;
+  font-style: italic;
+}
+button{
+  user-select: none;
+}
+.footer li{
+  margin: 0.5rem 0.3rem;
+}
+@media print {
+  /* Hide all buttons in print view */
+  button {
+    display: none;
+  }
 }
